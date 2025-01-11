@@ -1,0 +1,38 @@
+/* shop section */
+
+
+.shop-section{
+    background: linear-gradient(180deg, rgba(133,3,78,1) 0%, rgba(133,83,112,1) 21%, rgba(255,255,255,1) 100%);
+}
+
+.box{
+    margin-top: 15px;
+    height: 400px;
+    width: 23%;
+    background-color: #ffffff;
+    overflow: hidden;
+    padding: 20px 0px 15px;
+}
+
+.box-img{
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+.box-content p{
+    color: black;
+}
+
+.row-1, .row-2{
+    display: flex;
+    justify-content: space-evenly;
+}
