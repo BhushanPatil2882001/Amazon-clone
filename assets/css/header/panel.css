@@ -1,0 +1,52 @@
+/* panel */
+
+:root{
+    --background: #232f3e;
+    --white: #ffffff
+}
+
+.panel{
+    height: 40px;
+    background-color: var(--background);
+    display: flex;
+}
+
+.panel-all, .panel-options, .panel-deals{
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px
+}
+
+.panel-all{
+    gap: 5px;
+    font-weight: bold;
+}
+
+.panel-options{
+    gap: 20px;
+    margin: 0px 20px;
+    padding: 0;
+}
+
+.panel-options p{
+    height: 100%;
+    align-content: center;
+    padding: 0 10px;
+}
+
+.panel-deals{
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+
+/* white border hover */
+.border{
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+.border:hover{
+    border: 1px solid var(--white);
+}
