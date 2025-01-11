@@ -6,9 +6,11 @@
 }
 
 .panel{
+    font-family: Arial, Helvetica, sans-serif;
     height: 40px;
     background-color: var(--background);
     display: flex;
+    font-size: 0.9rem;
 }
 
 .panel-all, .panel-options, .panel-deals{
@@ -16,7 +18,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0px 10px
+    padding: 0px 10px 0px 10px
 }
 
 .panel-all{
@@ -24,21 +26,16 @@
     font-weight: bold;
 }
 
-.panel-options{
-    gap: 20px;
-    margin: 0px 20px;
-    padding: 0;
-}
-
 .panel-options p{
     height: 100%;
     align-content: center;
-    padding: 0 10px;
+    padding: 0 15px;
 }
 
 .panel-deals{
     margin-left: auto;
     margin-right: 20px;
+    font-weight: 700;
 }
 
 
